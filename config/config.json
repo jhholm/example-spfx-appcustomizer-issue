@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "example-header-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/exampleHeader/ExampleHeaderApplicationCustomizer.js",
+          "manifest": "./src/extensions/exampleHeader/ExampleHeaderApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ExampleHeaderApplicationCustomizerStrings": "lib/extensions/exampleHeader/loc/{locale}.js"
+  }
+}
